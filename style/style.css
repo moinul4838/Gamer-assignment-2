@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&family=Work+Sans:wght@400;500;600;700&display=swap');
 
 *{
@@ -67,7 +72,6 @@ nav li a{
     display: flex;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     
-    
 }
 .sec1{
     display: flex;
@@ -79,19 +83,20 @@ nav li a{
 }
 .banner-demo{
     width: 600px;
-    height: 700px;
+    height: 00px;
     margin-left: 350px;
-    margin-top: 50px;
+    margin-top: 200px;
    
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 font-family: Work Sans;
 font-size: 20px;
+margin-bottom: px;
 
 }
 
 .btn-primary{
     display: flex;
-   
+   margin-top: 10px;
 }
 .btn-primary2{
     border-radius: 48px;
@@ -140,6 +145,7 @@ margin-bottom: 15px;
 .sec2{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     display: flex;
+    margin-top: 5px;
 }
 .sec2-img{
     margin-left: 240px;
@@ -176,4 +182,75 @@ align-items: flex-start;
 border-radius: 48px;
 background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 
+}
+.sec3{
+    text-align: center;
+    margin-top: 120px;
+    
+}
+.sec3-img{
+    display: flex;
+    margin-left: 240px;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 120px;
+}
+.sec3-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.sec3-p2{
+    font-size: 48px;
+}
+.sec3-img3{
+    background-image: url(../images/Rectangle\ 7.png);
+    background-position: center;
+    background-size: cover;
+}
+.sec3-p3{
+    font-family: Work Sans;
+    font-size: 18px;
+}
+.sec4{
+    display: flex;
+    text-align: right;
+}
+.sec4-span{
+    color: #F948B2 ;
+}
+.sec4-p1{
+    margin-left: 439px;
+    margin-top: 100px;
+    
+    
+}
+.sec4-h3{
+    font-size: 48px;
+}
+.sec4-p2{
+    color: #534C64;
+
+font-family: Work Sans;
+font-size: 18px;
+margin-top: 20px;
+}
+.sec4-pic1{
+    margin-top: 400px;
+    margin-right: 1000px;
+}
+.sec4-img1{
+    display: flex;
+    margin-right: 100px;
+    margin-left: 250px;
+    background-image: url('../images/Rectangle\ 55.png');
+    width: 634.833px;
+height: 650px;
+
+}
+
+.sec4{
+    margin-bottom: 100px;
 }
