@@ -344,6 +344,53 @@ margin-bottom: 120px;
     color: #F948B2;
     border-radius: 5px solid black;
 }
-
-
+.sec7{
+    
+    background-color: #0B0223;
+    color: #FFF;
+    
+    padding: 80px 300px 50px 700px;
+    
+}
+.sec7-p1{
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+   
+}
+.sec7-p2{
+    display: flex;
+    gap: 70px;
+}
+.sec7-p3{
+    display: flex;
+    gap: 70px;
+    margin-top: 50px;
+    width: 70px;
+}
+.sec7-p4{
+    display: flex;
+    gap: 70px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+}
+.sec7-p5{
+    text-align: center;
+}
+.sec7-p6{
+    font-size: 50px;
+}
+@media screen and (max-width:576px){
+    header{
+        padding:10px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .sec1{
+        display: inline-block;
+    }
+}
 
