@@ -240,17 +240,25 @@ margin-top: 20px;
 .sec4-pic1{
     margin-top: 400px;
    margin-bottom: 50px;
-   margin-right: 450px;
+   margin-right: 500px;
+   text-align: left;
+   
 }
 .sec4-img1{
-    display: flex;
-    margin-right: 100px;
-    margin-left: 250px;
-    background-image: url('../images/Rectangle\ 55.png');
-    width: 634.833px;
-height: 650px;
-
+    position: relative;
 }
+.sec4-img1 img{
+    width: 50%;
+    margin-top: 50px;
+}
+.sec4-img1 div{
+    position: absolute;
+    top: 60%;
+    left: -25%;
+    width: 40%;
+   
+}
+
 
 .sec4{
     margin-bottom: 100px;
@@ -343,7 +351,8 @@ margin-bottom: 120px;
 .sec6-p8:hover{
     color: #F948B2;
     border-radius: 5px solid black;
-}
+} 
+
 .sec7{
     
     background-color: #0B0223;
@@ -385,12 +394,78 @@ margin-bottom: 120px;
 @media screen and (max-width:576px){
     header{
         padding:10px;
+        display: inline;
     }
-    nav{
-        flex-direction: column;
-    }
+    nav > ul > li {
+        display: block;
+        text-align: center;
+      }
+      nav > ul > li:first-child,
+      nav > ul > li:last-child {
+        margin-top: 62px;
+      }
+    
+      nav > ul > li:not(:last-child) {
+        margin-bottom: 36px;
+      }
+    
+      nav {
+        display: block;
+      }
+    
+      nav ul {
+        display: block;
+      }
     .sec1{
-        display: inline-block;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        gap: 0;
+        padding: 0px;
+      }
+      .banner > div:last-child {
+        flex-basis: 80%;
+      }
+    
+      .banner > div:fast-child {
+        flex-basis: 80%;
+      }
+    
+    .img-1{
+        padding: 15px 30px;
     }
+    .banner-demo{
+        position: relative;
+        padding: 50px 25px;
+    }
+    .img-1{
+       top: 0;
+    }
+    .img-1 img{
+        height: 520px;
+    }
+    .sec2-banner{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .sec7{
+        flex-wrap: wrap-reverse;
+    flex-basis: 85px;
+    justify-content: center;
+    gap: 85px;
+    padding: 0px 25px;
+    }
+    .sec7-p1{
+        flex-basis: 70%;
+    }
+    .sec3-img{
+        
+        display: inline;
+    }
+    .sec2{
+        display: inline;
+        flex-basis: 70%;
+    }
+
+    
 }
 
